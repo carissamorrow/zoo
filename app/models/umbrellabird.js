@@ -5,4 +5,12 @@ export default class umbrellabird {
     this.danger = danger
     this.favFood = favFood
   }
+  eat(food) {
+    if (food == this.favFood) {
+      console.log(`${this.name} is eating ${food}`);
+    }
+    else {
+      console.log(`${this.name} is unhappily eating ${food}`);
+    }
+  }
 }

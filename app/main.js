@@ -133,6 +133,39 @@ let zebraPen = [
   new zebra("Mimi", "not-dangerous", "ravioli")
 ]
 
+for (let i = 0; i < alligatorPen.length; i++) {
+  let alligator = alligatorPen[i];
+  alligator.eat("pizza");
+}
+for (let i = 0; i < BuffaloPen.length; i++) {
+  let buffalo = BuffaloPen[i];
+  buffalo.eat("birds");
+}
+
+for (let i = 0; i < CougarPen.length; i++) {
+  let Cougar = CougarPen[i];
+  Cougar.eat("mice");
+}
+for (let i = 0; i < dinosaurPen.length; i++) {
+  let dinosaur = dinosaurPen[i];
+  dinosaur.eat("bear");
+}
+
+for (let i = 0; i < eaglePen.length; i++) {
+  let eagle = eaglePen[i];
+  eagle.eat("air");
+}
+
+for (let i = 0; i < fishPen.length; i++) {
+  let fish = fishPen[i];
+  fish.eat("water");
+}
+
+for (let i = 0; i < gorillaPen.length; i++) {
+  let gorilla = gorillaPen[i];
+  gorilla.eat("meat");
+}
+
 for (let i = 0; i < zebraPen.length; i++) {
   let zebra = zebraPen[i];
   zebra.eat("ravioli");
