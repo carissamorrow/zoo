@@ -5,4 +5,13 @@ export default class zebra {
     this.danger = danger
     this.favFood = favFood
   }
+
+  eat(food) {
+    if (food == this.favFood) {
+      console.log(`munch! ${this.name} is happily eating ${food}`)
+    }
+    else {
+      console.log(`munch! ${this.name} is unhappily eating ${food}`)
+    }
+  }
 }

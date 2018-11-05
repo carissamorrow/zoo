@@ -132,3 +132,8 @@ let zebraPen = [
   new zebra("Vega", "not-dangerous", "lard"),
   new zebra("Mimi", "not-dangerous", "ravioli")
 ]
+
+for (let i = 0; i < zebraPen.length; i++) {
+  let zebra = zebraPen[i];
+  zebra.eat("ravioli");
+}
