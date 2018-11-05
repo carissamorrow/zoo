@@ -1,14 +1,9 @@
-class Alligator {
-  constructor(name, color, favFood) {
+export default class Alligator {
+  constructor(name, danger, favFood) {
 
     this.name = name
-    this.color = color
+    this.danger = danger
     this.favFood = favFood
   }
-  eat(food) {
-    if (food == this.favFood) {
-      console.log("Yummy")
-    }
-    console.log(`${this.name} is eating ${food}`)
-  }
 }
+
