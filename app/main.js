@@ -166,6 +166,96 @@ for (let i = 0; i < gorillaPen.length; i++) {
   gorilla.eat("meat");
 }
 
+for (let i = 0; i < hyenaPen.length; i++) {
+  let hyena = hyenaPen[i];
+  hyena.eat("burgers");
+}
+
+for (let i = 0; i < iguanaPen.length; i++) {
+  let iguana = iguanaPen[i];
+  iguana.eat("cheese");
+}
+
+for (let i = 0; i < jackrabbitPen.length; i++) {
+  let jackrabbit = jackrabbitPen[i];
+  jackrabbit.eat("pencils");
+}
+
+for (let i = 0; i < koalaPen.length; i++) {
+  let koala = koalaPen[i];
+  koala.eat("sauce");
+}
+
+for (let i = 0; i < llamaPen.length; i++) {
+  let llama = llamaPen[i];
+  llama.eat("bread");
+}
+
+for (let i = 0; i < mousePen.length; i++) {
+  let mouse = mousePen[i];
+  mouse.eat("oil");
+}
+
+for (let i = 0; i < numbatPen.length; i++) {
+  let numbat = numbatPen[i];
+  numbat.eat("crackers");
+}
+
+for (let i = 0; i < OctopusPen.length; i++) {
+  let Octopus = OctopusPen[i];
+  Octopus.eat("prunes");
+}
+
+for (let i = 0; i < pandaPen.length; i++) {
+  let panda = pandaPen[i];
+  panda.eat("straw");
+}
+
+for (let i = 0; i < quailPen.length; i++) {
+  let quail = quailPen[i];
+  quail.eat("grapes");
+}
+
+for (let i = 0; i < rabbitPen.length; i++) {
+  let rabbit = rabbitPen[i];
+  rabbit.eat("hens");
+}
+
+for (let i = 0; i < salmonPen.length; i++) {
+  let salmon = salmonPen[i];
+  salmon.eat("towels");
+}
+
+for (let i = 0; i < termitePen.length; i++) {
+  let termite = termitePen[i];
+  termite.eat("dirt");
+}
+
+for (let i = 0; i < umbrellabirdPen.length; i++) {
+  let umbrellabird = umbrellabirdPen[i];
+  umbrellabird.eat("newspaper");
+}
+
+for (let i = 0; i < vulturePen.length; i++) {
+  let vulture = vulturePen[i];
+  vulture.eat("res");
+}
+
+for (let i = 0; i < walrusPen.length; i++) {
+  let walrus = walrusPen[i];
+  walrus.eat("pen");
+}
+
+for (let i = 0; i < xenonPen.length; i++) {
+  let xenon = xenonPen[i];
+  xenon.eat("avocado");
+}
+
+for (let i = 0; i < yakPen.length; i++) {
+  let yak = yakPen[i];
+  yak.eat("thai");
+}
+
 for (let i = 0; i < zebraPen.length; i++) {
   let zebra = zebraPen[i];
   zebra.eat("ravioli");
